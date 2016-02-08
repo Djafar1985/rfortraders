@@ -486,7 +486,7 @@ extract_prices <- function(filtered_symbols, file_path) {
   # Output: prices = data.frame of prices per symbol
 
   # Read in the .csv price file
-  all_prices <- read.csv(file = file_path, header = TRUE,
+  all_prices <- read.csv(file = "file_path", header = TRUE,
     stringsAsFactors = FALSE)
 
   # Make the dates row names
