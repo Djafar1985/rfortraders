@@ -286,7 +286,7 @@ plot(xts_matrix["2007-01-01::2007-02-12"],
   cex.main = 0.8, type = "candles")
 
 range <- "2007-03-15::2007-06-15"
-  plot(xts_matrix(range))
+  plot(xts_matrix[range])
 
 start_date <- "2007-05-05"
 end_date <- "2007-12-31"
