@@ -262,7 +262,7 @@ str(sample_matrix)
 
 xts_matrix <- as.xts(sample_matrix, descr = 'my new xts object')
 
-str(xts_matrix}
+str(xts_matrix)
 ## An 'xts' object on 2007-01-02/2007-06-30 containing: ## Data: num [1:180, 1:4] 50 50.2 50.4 50.4 50.2 ...
 ## - attr(*, "dimnames")=List of 2
 ## ..$ : NULL
